@@ -1,1 +1,18 @@
-/* Add CSS Styling */
+/* Avatar + proportioned: 300px wide, keep proportions */
+.avatar.proportioned {
+  width: 300px;
+  height: auto;
+}
+
+/* Avatar + distorted: 200px wide, height hardcoded to 400px */
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
+}
+
+/* Just for comparison visuals */
+.original {
+  width: 150px; /* smaller so you can compare side-by-side */
+  margin: 10px;
+  border: 2px dashed gray;
+}
